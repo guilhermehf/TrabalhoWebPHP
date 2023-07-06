@@ -1,4 +1,7 @@
-<?php session_start(); ?>
+<?php session_start(); 
+$seguranca = isset($_SESSION['ativa']) ? TRUE : header("location:login.php");
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,16 +10,14 @@
     <title>Painel Admin</title>
 </head>
 <body>
-    <?php if(isset($_SESSION['ativa'])) { ?>
+    <?php if($seguranca) { ?>
 
         <h1>Painel Administrativo do site</h1>
         <h3>Bem Vindo,<?php echo $_SESSION['nome']; ?></h3>
+        <a href="logout.php">Sair</a>
 
     
-    <?php }else{
-        header("location: login.php");
-
-    } ?>
+    <?php } ?>
     
     
 </body>

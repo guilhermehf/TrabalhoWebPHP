@@ -35,4 +35,14 @@ function login($connect){
             echo "Usuario ou senha nao encontrado!";
         }
     }
-} ?>
+} 
+//Criar funcao logout
+function logout(){
+    session_start();
+    session_unset();
+    session_destroy();
+    header("location: login.php");
+
+}
+
+?>
