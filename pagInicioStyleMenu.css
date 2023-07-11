@@ -1,0 +1,202 @@
+a{
+    text-decoration: none;
+}
+
+ul{
+    background-color: #343a40;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    /*max-width: 700px;*/
+    width: 100%;
+    height: 55px;
+    
+}
+
+li{
+    color:white;
+    background-color:#343a40;
+    display: block;
+    float:left;
+    padding: 18px;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+
+}
+
+li a{
+    color:white;
+}
+
+li:hover{
+    background-color: red;
+    cursor:pointer;
+    
+}
+
+ul li ul{
+    background-color: red;
+    visibility: hidden;
+    opacity: 0;
+    position:absolute;
+    transition: all 0.5s ease;
+    margin-top: 18px;
+    left: 0;
+    display: none;
+}
+
+ul li:hover > ul, ul, li ul:hover{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+
+ul li ul li{
+    clear: both;
+    width: 100%;
+}
+
+
+/*---*/
+
+#pagPrincipal{
+    width: 100%;
+    height: 500px;
+    background-color: white;
+}
+
+
+#rodape{
+    width: 100%;
+    height: 300px;
+    background-color: red;
+}
+
+
+
+
+/*------Grid01*/
+
+#gridUm{
+    width: 320px;
+    height: 450px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+}
+
+.imgGrid{
+    width: 320px;
+    height: 200px;
+}
+
+.fontTitulo{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.fontPreco{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.botaoC{
+    width: 130px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 15px;
+    background-color: green;
+}
+/*----*/
+
+
+/*GridDois*/
+
+#gridDois{
+    width: 320px;
+    height: 450px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+}
+
+.imgGrid{
+    width: 320px;
+    height: 200px;
+}
+
+.fontTitulo{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.fontPreco{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.botaoC{
+    width: 130px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 15px;
+    background-color: green;
+}
+
+
+/*-----*/
+
+/*----GridTres*/
+
+#gridTres{
+    width: 320px;
+    height: 450px;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+}
+
+.imgGrid{
+    width: 320px;
+    height: 200px;
+}
+
+.fontTitulo{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.fontPreco{
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.botaoC{
+    width: 130px;
+    height: 40px;
+    margin-left: 80px;
+    margin-top: 15px;
+    background-color: green;
+}
+
+
+
+
+/*----*/
+
+/*footer*/
+
+
+
+
+/*---*/
